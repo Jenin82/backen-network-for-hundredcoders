@@ -1,0 +1,12 @@
+2023-11-17T11:26:30.188Z [test] error: connect ECONNREFUSED 127.0.0.1:27017
+2023-11-17T11:28:27.778Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T11:28:28.797Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-17T11:28:28.905Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T11:28:28.908Z [test] info: Redis Client Connected For DB: 11
+2023-11-17T11:28:28.910Z [test] info: Lookup Cache Initialized...
+2023-11-17T11:28:28.911Z [test] info: Redis Client Connected For DB: 12
+2023-11-17T11:28:28.911Z [test] info: Request Cache Initialized...
+2023-11-17T11:28:31.348Z [test] info: Protocol Server started on PORT : 5003
+2023-11-17T11:28:31.349Z [test] info: Protocol Server Started Successfully
+2023-11-17T11:28:31.350Z [test] info: Mode: BAP
+2023-11-17T11:28:31.350Z [test] info: Gateway Type: CLIENT

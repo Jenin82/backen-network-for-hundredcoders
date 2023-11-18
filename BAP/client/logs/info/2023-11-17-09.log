@@ -1,0 +1,135 @@
+2023-11-17T04:01:23.516Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:01:23.749Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-17T04:01:23.811Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:01:23.816Z [test] info: Redis Client Connected For DB: 11
+2023-11-17T04:01:23.820Z [test] info: Lookup Cache Initialized...
+2023-11-17T04:01:23.822Z [test] info: Redis Client Connected For DB: 12
+2023-11-17T04:01:23.823Z [test] info: Request Cache Initialized...
+2023-11-17T04:01:27.693Z [test] info: Protocol Server started on PORT : 5003
+2023-11-17T04:01:27.695Z [test] info: Protocol Server Started Successfully
+2023-11-17T04:01:27.697Z [test] info: Mode: BAP
+2023-11-17T04:01:27.698Z [test] info: Gateway Type: CLIENT
+2023-11-17T04:13:52.502Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:13:52.473Z","message_id":"88192a1e-969e-4214-8c02-e69c1722e4ef","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T04:13:52.580Z [test] info: Signing String:==>
+(created): 1700194372
+(expires): 1700197972
+digest: BLAKE-512=+Ft9WwoM750WTXI/jAhV5XwJF23E5+orTDOsFeILsJP0Swq67MRu8CMpQ6GHNE21w2ZbhuFeWUDFifwLUcd+/w==
+
+
+2023-11-17T04:13:52.588Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"jenin.onest:work-opportunities.BAP|jenin-bpp|ed25519\",algorithm=\"ed25519\",created=\"1700194372\",expires=\"1700197972\",headers=\"(created) (expires) digest\",signature=\"ZaIGtq9VPDtTbNNyJljmMr2/gKvkBpWM2P7rPH0xgKI0J8T8th7+4BdOI07CTiQwpWybCu20Hqd5BPo/u0qQBg==\""},"timeout":3000}
+
+
+2023-11-17T04:13:52.631Z [test] info: 
+Looking Up in registry...!
+With URL:https://registry.becknprotocol.io/subscribers/lookup
+ Payload:{"subscriber_id":"jenin.onest:work-opportunities.BAP","unique_key_id":"jenin-bpp"}
+2023-11-17T04:13:53.270Z [test] info: subscribers: [{"subscriber_id":"jenin.onest:work-opportunities.BAP","subscriber_url":"https://jenin8282.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T04:13:56.857Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T04:13:56.859Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:13:52.473Z","message_id":"88192a1e-969e-4214-8c02-e69c1722e4ef","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"tags":[{"descriptor":{"name":"skills"},"list":[{"value":"Agile"},{"value":"Figma"}],"display":true}]}}}}
+
+2023-11-17T04:21:23.656Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:21:23.817Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-17T04:21:23.847Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:21:23.849Z [test] info: Redis Client Connected For DB: 11
+2023-11-17T04:21:23.850Z [test] info: Lookup Cache Initialized...
+2023-11-17T04:21:23.851Z [test] info: Redis Client Connected For DB: 12
+2023-11-17T04:21:23.851Z [test] info: Request Cache Initialized...
+2023-11-17T04:21:25.872Z [test] info: Protocol Server started on PORT : 5003
+2023-11-17T04:21:25.873Z [test] info: Protocol Server Started Successfully
+2023-11-17T04:21:25.874Z [test] info: Mode: BAP
+2023-11-17T04:21:25.874Z [test] info: Gateway Type: CLIENT
+2023-11-17T04:21:56.163Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:21:56.159Z","message_id":"aadfffd7-a76c-41a3-82e3-2607f4c8c259","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"onest:work-opportunities","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T04:21:56.171Z [test] info: Signing String:==>
+(created): 1700194856
+(expires): 1700198456
+digest: BLAKE-512=NNVGYU11hy/wSF44ffxE0bIt4D+IbN3ctEhrfqDvkDdSPcFAhnyTpFktYU+AhMRyu01KOpldzLOFZguO3tn1mw==
+
+
+2023-11-17T04:21:56.175Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"jenin.onest:work-opportunities.BAP|jenin-bpp|ed25519\",algorithm=\"ed25519\",created=\"1700194856\",expires=\"1700198456\",headers=\"(created) (expires) digest\",signature=\"o/Yn130cOMNn9534qbUj5qsuO2UBRuS6jM4a2Y4D+dhOsGif7adceAgk73jD+gRJknRiHiSQGj/uVBh95xyBAg==\""},"timeout":3000}
+
+
+2023-11-17T04:21:56.210Z [test] info: returning response from cache
+2023-11-17T04:21:56.212Z [test] info: cachedResponse: [{"subscriber_id":"jenin.onest:work-opportunities.BAP","subscriber_url":"https://jenin8282.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T04:21:58.684Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T04:21:58.692Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:21:56.159Z","message_id":"aadfffd7-a76c-41a3-82e3-2607f4c8c259","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"onest:work-opportunities","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"tags":[{"descriptor":{"name":"skills"},"list":[{"value":"Agile"},{"value":"Figma"}],"display":true}]}}}}
+
+2023-11-17T04:23:39.712Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:23:39.859Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-17T04:23:39.905Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:23:39.909Z [test] info: Redis Client Connected For DB: 11
+2023-11-17T04:23:39.911Z [test] info: Lookup Cache Initialized...
+2023-11-17T04:23:39.912Z [test] info: Redis Client Connected For DB: 12
+2023-11-17T04:23:39.913Z [test] info: Request Cache Initialized...
+2023-11-17T04:23:42.340Z [test] info: Protocol Server started on PORT : 5003
+2023-11-17T04:23:42.341Z [test] info: Protocol Server Started Successfully
+2023-11-17T04:23:42.342Z [test] info: Mode: BAP
+2023-11-17T04:23:42.342Z [test] info: Gateway Type: CLIENT
+2023-11-17T04:23:48.393Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:23:48.393Z","message_id":"0079efc1-6336-46be-9a02-8e8a1b52c11c","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"onest:work-opportunities","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T04:23:48.396Z [test] info: Signing String:==>
+(created): 1700194968
+(expires): 1700198568
+digest: BLAKE-512=rJxF4gOMFmtXuXgT0obIkqnfPesF9szn5SHMo69WxDN1zgk8jMDxDGQZ+w64H+j2+vJwUndceDZIwsfGN5Lung==
+
+
+2023-11-17T04:23:48.398Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"jenin.onest:work-opportunities.BAP|jenin-bpp|ed25519\",algorithm=\"ed25519\",created=\"1700194968\",expires=\"1700198568\",headers=\"(created) (expires) digest\",signature=\"SPaeR/QcuT9Bz4xPtdSkaSiIpn4e9soZbTNwuJLwG6Gtxtlqa2Yqc8+IWG+9g4CDFXfiBPxbrRXdtTSgTzwsDw==\""},"timeout":3000}
+
+
+2023-11-17T04:23:48.408Z [test] info: returning response from cache
+2023-11-17T04:23:48.409Z [test] info: cachedResponse: [{"subscriber_id":"jenin.onest:work-opportunities.BAP","subscriber_url":"https://jenin8282.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T04:23:51.238Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T04:23:51.239Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:23:48.393Z","message_id":"0079efc1-6336-46be-9a02-8e8a1b52c11c","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"onest:work-opportunities","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"tags":[{"descriptor":{"name":"skills"},"list":[{"value":"Agile"},{"value":"Figma"}],"display":true}]}}}}
+
+2023-11-17T04:25:25.355Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:25:25.480Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-17T04:25:25.505Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T04:25:25.509Z [test] info: Redis Client Connected For DB: 11
+2023-11-17T04:25:25.511Z [test] info: Lookup Cache Initialized...
+2023-11-17T04:25:25.513Z [test] info: Redis Client Connected For DB: 12
+2023-11-17T04:25:25.514Z [test] info: Request Cache Initialized...
+2023-11-17T04:25:27.334Z [test] info: Protocol Server started on PORT : 5003
+2023-11-17T04:25:27.334Z [test] info: Protocol Server Started Successfully
+2023-11-17T04:25:27.335Z [test] info: Mode: BAP
+2023-11-17T04:25:27.335Z [test] info: Gateway Type: CLIENT
+2023-11-17T04:25:44.250Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:25:44.249Z","message_id":"8319e58c-91bf-458e-aabe-7e0ba2e91284","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"onest:work-opportunities","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T04:25:44.253Z [test] info: Signing String:==>
+(created): 1700195084
+(expires): 1700198684
+digest: BLAKE-512=cI9KonSXs7hKyNYHWunGnTsolAZV3pGrFz/tyoNy/HbgC1SHNzeuoYH/S6ItklxH0ppJb2rXmIR7LAY8M8BxkA==
+
+
+2023-11-17T04:25:44.256Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"jenin.onest:work-opportunities.BAP|jenin-bpp|ed25519\",algorithm=\"ed25519\",created=\"1700195084\",expires=\"1700198684\",headers=\"(created) (expires) digest\",signature=\"cqtpcQgQ9aDhG/az2LDYLl2T/x7NdS3rcVmH/a5Ma9VTbQHZWVO/dQt9zOo2pj7nom/+8s4XIs/Ve2RpSjgpCw==\""},"timeout":3000}
+
+
+2023-11-17T04:25:44.266Z [test] info: returning response from cache
+2023-11-17T04:25:44.267Z [test] info: cachedResponse: [{"subscriber_id":"jenin.onest:work-opportunities.BAP","subscriber_url":"https://jenin8282.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T04:25:47.165Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T04:25:47.166Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T04:25:44.249Z","message_id":"8319e58c-91bf-458e-aabe-7e0ba2e91284","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"onest:work-opportunities","version":"1.1.0","bap_id":"jenin.onest:work-opportunities.BAP","bap_uri":"https://jenin8282.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"tags":[{"descriptor":{"name":"skills"},"list":[{"value":"Agile"},{"value":"Figma"}],"display":true}]}}}}
+

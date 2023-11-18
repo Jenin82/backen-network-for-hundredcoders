@@ -1,0 +1,110 @@
+2023-11-17T12:30:44.432Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:30:44.423Z","message_id":"b43d5487-ea48-432e-a6c5-3483e5845605","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T12:30:44.629Z [test] info: Signing String:==>
+(created): 1700224184
+(expires): 1700227784
+digest: BLAKE-512=ye+Drw3ru/IqRkjPLJC1CJ2aPUYTcq15K1ONvh3TVoUoTHyLLo+BssoNZKBvIDutDG0+EQpbHKEueBMrBkyIIg==
+
+
+2023-11-17T12:30:44.639Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700224184\",expires=\"1700227784\",headers=\"(created) (expires) digest\",signature=\"ujq8EF1x6AJ07qiL5CLM3ZVBS69aEkRlVYkBC9WA1cbVEptTgs9WD+GT9WnifkedVbsEdc4WMQhEkFnK63FMCQ==\""},"timeout":3000}
+
+
+2023-11-17T12:30:44.702Z [test] info: returning response from cache
+2023-11-17T12:30:44.704Z [test] info: cachedResponse: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T12:30:51.141Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T12:30:51.143Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:30:44.423Z","message_id":"b43d5487-ea48-432e-a6c5-3483e5845605","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"descriptor":{"name":"man"}}}}}
+
+2023-11-17T12:31:55.864Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:31:55.861Z","message_id":"a16a1547-48f1-422e-a113-e41f960a1e5f","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T12:31:55.874Z [test] info: Signing String:==>
+(created): 1700224255
+(expires): 1700227855
+digest: BLAKE-512=KGlNmAiWZLCMbHWUbqvndDLnEDJ9sR0F70DWeYL+9+9kzN5kBtuvg3qSepKgq+fU6xQaJg8+tGuhn1piNHwLAw==
+
+
+2023-11-17T12:31:55.881Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700224255\",expires=\"1700227855\",headers=\"(created) (expires) digest\",signature=\"RdcqulhbQ34+3MVEEw787x7ud5Gr/mK27tQJxzPcScqXpyK1O0xzsi+faejSl5VZivZLEW2iCJcn40tR+Yn2Bw==\""},"timeout":3000}
+
+
+2023-11-17T12:31:55.911Z [test] info: returning response from cache
+2023-11-17T12:31:55.912Z [test] info: cachedResponse: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T12:31:59.988Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T12:31:59.989Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:31:55.861Z","message_id":"a16a1547-48f1-422e-a113-e41f960a1e5f","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"descriptor":{"name":"man"}}}}}
+
+2023-11-17T12:39:55.544Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:39:55.531Z","message_id":"29ea6607-059b-4686-8147-c69c9025aed5","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T12:39:55.599Z [test] info: Signing String:==>
+(created): 1700224735
+(expires): 1700228335
+digest: BLAKE-512=0eNPwimEsxh4HwXG2Hc3d66ivjPEMu+dZYz7brqXEiV2QPncQsVA0ly6fbtJ993oVSr2NUrP3kQ5Q5gZ+wMNuw==
+
+
+2023-11-17T12:39:55.607Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700224735\",expires=\"1700228335\",headers=\"(created) (expires) digest\",signature=\"6kcFf7nEQvlb0VgL1Wy33N7dPrP5vrKznts5SLFug3J4CuErTFEubQercer2d6cocNVQJogAl0VaZMJCYyt8Cg==\""},"timeout":3000}
+
+
+2023-11-17T12:39:55.660Z [test] info: returning response from cache
+2023-11-17T12:39:55.662Z [test] info: cachedResponse: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T12:40:00.624Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T12:40:00.626Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:39:55.531Z","message_id":"29ea6607-059b-4686-8147-c69c9025aed5","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"descriptor":{"name":"man"}}}}}
+
+2023-11-17T12:40:42.020Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:40:42.012Z","message_id":"237d1fed-5183-4408-b1fa-5125d1b8bc36","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T12:40:42.049Z [test] info: Signing String:==>
+(created): 1700224782
+(expires): 1700228382
+digest: BLAKE-512=dNkwwJ4pPSZwKL9JV/vZIdTQsPdnwldNloeTfy4VfRiDBytMmQSqbg33DUU0FltzUr8/HImKcSs5pmvF8YVJTQ==
+
+
+2023-11-17T12:40:42.063Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700224782\",expires=\"1700228382\",headers=\"(created) (expires) digest\",signature=\"FiXsUmH63wvRL7zekHAxTRUMxja4+mEYuxR/+k0GqEG5v76BQn8zFA3yTi41m1Sts0U7woGvw4NQhSzFWlujDg==\""},"timeout":3000}
+
+
+2023-11-17T12:40:42.093Z [test] info: returning response from cache
+2023-11-17T12:40:42.094Z [test] info: cachedResponse: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T12:40:45.868Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T12:40:45.879Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:40:42.012Z","message_id":"237d1fed-5183-4408-b1fa-5125d1b8bc36","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"descriptor":{"name":"man"}}}}}
+
+2023-11-17T12:45:54.027Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:45:54.021Z","message_id":"51ae4c74-837c-439c-8593-6a40f1b8793c","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T12:45:54.062Z [test] info: Signing String:==>
+(created): 1700225094
+(expires): 1700228694
+digest: BLAKE-512=VKFAlmtPEp1rQxRmxfhbfAdH5iPtOGfjdRHuvQsXFCXEQB77L8Fl9urGEG7ARcmhmqQPlp/DQozyBwoB5LFhvw==
+
+
+2023-11-17T12:45:54.075Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700225094\",expires=\"1700228694\",headers=\"(created) (expires) digest\",signature=\"JEILYok42+G5FCpIlAwPG1PBPlt8x3rNH9ygvR7arE34/u0usCtEyLQghXecLoR1LowSk+JnLqdiUk3UxT2qAw==\""},"timeout":3000}
+
+
+2023-11-17T12:45:54.121Z [test] info: returning response from cache
+2023-11-17T12:45:54.122Z [test] info: cachedResponse: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T12:45:58.541Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T12:45:58.544Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T12:45:54.021Z","message_id":"51ae4c74-837c-439c-8593-6a40f1b8793c","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"descriptor":{"name":"man"}}}}}
+

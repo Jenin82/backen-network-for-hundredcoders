@@ -1,0 +1,50 @@
+2023-11-17T07:49:06.684Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T07:49:07.191Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-17T07:49:07.601Z [test] info: Mongo Client Connected For DB: ps
+2023-11-17T07:49:07.604Z [test] info: Redis Client Connected For DB: 11
+2023-11-17T07:49:07.605Z [test] info: Lookup Cache Initialized...
+2023-11-17T07:49:07.606Z [test] info: Redis Client Connected For DB: 12
+2023-11-17T07:49:07.607Z [test] info: Request Cache Initialized...
+2023-11-17T07:49:10.158Z [test] info: Protocol Server started on PORT : 5003
+2023-11-17T07:49:10.160Z [test] info: Protocol Server Started Successfully
+2023-11-17T07:49:10.161Z [test] info: Mode: BAP
+2023-11-17T07:49:10.161Z [test] info: Gateway Type: CLIENT
+2023-11-17T07:49:33.494Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T07:49:33.489Z","message_id":"8f44e0f8-d3e5-44f6-85b1-a16bccf62f9a","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T07:49:33.505Z [test] info: Signing String:==>
+(created): 1700207313
+(expires): 1700210913
+digest: BLAKE-512=+XzhmDKobT2UK8nlImfeFvd1FcmZ6ZAC6WMevv9TTicIIxdjQMFBsJCiwH8LJNiEQ/TOz0OjKoEdqLRa9heDnQ==
+
+
+2023-11-17T07:49:33.511Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700207313\",expires=\"1700210913\",headers=\"(created) (expires) digest\",signature=\"Lq08dxdBar0qKM5fLUgdkKSpq6hvRYiwy3WVTJEjJFCvyNl5oBZGn87cO35m0iIuzPqgahPddKSAbTywK+5/Dw==\""},"timeout":3000}
+
+
+2023-11-17T07:49:33.544Z [test] info: 
+Looking Up in registry...!
+With URL:https://registry.becknprotocol.io/subscribers/lookup
+ Payload:{"subscriber_id":"mulearn-jenin-bap","unique_key_id":"mulearn-jenin-bap-key"}
+2023-11-17T07:49:34.346Z [test] info: subscribers: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T07:49:38.371Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T07:49:38.374Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T07:49:33.489Z","message_id":"8f44e0f8-d3e5-44f6-85b1-a16bccf62f9a","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"tags":[{"descriptor":{"name":"skills"},"list":[{"value":"Agile"},{"value":"Figma"}],"display":true}]}}}}
+
+2023-11-17T07:58:21.900Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T07:58:21.852Z","message_id":"d6df8389-b0a7-46c2-b3ba-5c8088d2c1c2","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T07:58:22.122Z [test] info: Signing String:==>
+(created): 1700207842
+(expires): 1700211442
+digest: BLAKE-512=hbkgvZKrztONYcqkKxOGKzamzFB+uYqboc8eDEZf0bokaDm11DMbAg78nZDfr6oi9H0SuAwLVrcAvTiq31mQLQ==
+
+
+2023-11-17T07:58:22.145Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700207842\",expires=\"1700211442\",headers=\"(created) (expires) digest\",signature=\"oGvujyDoXoyYIyjRoZXRsnZ58R2zBkB20Y2xxu3vOyWFDqlgqR9rbNvKRvld1xSkjKHNPUHg6EdpXl0lt5eVCw==\""},"timeout":3000}
+
+

@@ -1,0 +1,11 @@
+2023-11-16T21:49:36.703Z [test] info: MQ Client Connected For: 127.0.0.1
+2023-11-16T21:49:36.812Z [test] info: Mongo Client Connected For DB: ps
+2023-11-16T21:49:36.816Z [test] info: Redis Client Connected For DB: 11
+2023-11-16T21:49:36.817Z [test] info: Lookup Cache Initialized...
+2023-11-16T21:49:36.818Z [test] info: Redis Client Connected For DB: 12
+2023-11-16T21:49:36.819Z [test] info: Request Cache Initialized...
+2023-11-16T21:49:39.161Z [test] info: Protocol Server started on PORT : 5003
+2023-11-16T21:49:39.162Z [test] info: Protocol Server Started Successfully
+2023-11-16T21:49:39.164Z [test] info: Mode: BPP
+2023-11-16T21:49:39.164Z [test] info: Gateway Type: CLIENT
+2023-11-16T22:26:43.280Z [test] info: MQ Client Connected For: 127.0.0.1

@@ -1,0 +1,68 @@
+{
+    "context": {
+        "domain": "dhp:diagnostics:0.1.0",
+        "action": "confirm",
+        "location": {
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "city": "std:080",
+        "version": "1.1.0",
+        "bap_id": "ps-bap-network.becknprotocol.io",
+        "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+        "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+        "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/",
+        "transaction_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+        "message_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+        "timestamp": "2023-07-16T04:41:16Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "289edce4-d002-4962-b311-4c025e22b4f6"
+            },
+            "items": [
+                {
+                    "id": "cons-01",
+                    "xinput": {
+                        "form_response": {
+                            "status": true,
+                            "submission_id": "c844d5f4-29c3-4398-b594-8b4716ef5dbf"
+                        }
+                    }
+                }
+            ],
+            "billing": {
+                "name": "Rajesh Kumar",
+                "address": "Villa 5, Green Valley, Malleshwaram, 560012",
+                "email": "rajesh.kumar@example.com",
+                "phone": "+91-9999999999"
+            },
+            "fulfillments": [
+                {
+                    "id": "ful-01",
+                    "customer": {
+                        "person": {
+                            "name": "Rajesh Kumar",
+                            "age": "26",
+                            "gender": "M",
+                            "dob": "1995-09-11"
+                        }
+                    }
+                }
+            ],
+            "payments": [
+                {
+                    "type": "ON-FULFILLMENT",
+                    "status": "NOT-PAID",
+                    "params": {
+                        "amount": "350",
+                        "currency": "INR"
+                    }
+                }
+            ]
+        }
+    }
+}

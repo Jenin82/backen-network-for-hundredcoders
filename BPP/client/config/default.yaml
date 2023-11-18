@@ -1,0 +1,105 @@
+# Mandatory
+server:
+    port: 5005
+
+# Mandatory.
+cache:
+    host: "127.0.0.1"
+    port: 6380
+    ttl: "PT10M"
+    # Optional. Default is 0.
+    db: 1
+
+# Optional.
+responseCache:
+    mongoURL: "mongodb://127.0.0.1:27018/ps?authSource=admin"
+    ttl: "PT10M"
+
+# Mandatory.
+# Priority order will be
+# 1. Synchronous
+# 2. webhook
+# 3. pubSub
+client:
+    # synchronous:
+    #   mongoURL: "mongodb://127.0.0.1:27017/protocolserver-v2-response-cache"
+
+    webhook:
+        url: "http://localhost:3005"
+
+    #messageQueue:
+    #  amqpURL: "amqp://guest:guest@localhost:5672"
+    #  incomingQueue: "protocol-server-incoming"
+    #  outgoingQueue: "protocol-server-outgoing"
+
+# Mandatory.
+app:
+    # Mandatory.
+    mode: bpp
+
+    # Two types of gateway mode present.
+    # client and network.
+    gateway:
+        mode: client
+        inboxQueue: "inbox"
+        outboxQueue: "outbox"
+        amqpURL: "amqp://tvast:password@127.0.0.1:5673"
+
+    # Mandatory.
+    actions:
+        requests:
+            search:
+                ttl: "PT10S"
+            init:
+                ttl: "PT10S"
+            select:
+                ttl: "PT10S"
+            confirm:
+                ttl: "PT10S"
+            status:
+                ttl: "PT10S"
+            get_cancellation_reasons:
+                ttl: "PT10S"
+            get_rating_categories:
+                ttl: "PT10S"
+
+        responses:
+            on_search:
+                ttl: "PT10S"
+
+            on_init:
+                ttl: "PT10S"
+            on_select:
+                ttl: "PT10S"
+            on_confirm:
+                ttl: "PT10S"
+            on_status:
+                ttl: "PT10S"
+            cancellation_reasons:
+                ttl: "PT10S"
+            rating_categories:
+                ttl: "PT10S"
+
+    # Mandatory.
+    privateKey: "MN9n5Tdq36a9zMoyZhTpl6BBSGBVaXV7DNwPiUBR4RuMKcbIgPkocjfPvYckI636mViWvGrsk4C/VBpPlT9BIQ=="
+    publicKey: "jCnGyID5KHI3z72HJCOt+plYlrxq7JOAv1QaT5U/QSE="
+
+    # Mandatory.
+    subscriberId: "mulearn-jenin-bpp"
+    subscriberUri: "https://mulearn-jenin-bap.loca.lt"
+
+    # Mandatory.
+    registryUrl: https://registry.becknprotocol.io/subscribers
+    auth: true
+    uniqueKey: "mulearn-jenin-bpp-key"
+
+    # Mandatory.
+    city: "std:080"
+    country: "IND"
+
+    # Mandatory.
+    ttl: "PT10M"
+
+    # Mandatory.
+    httpTimeout: "PT3S"
+    httpRetryCount: 2

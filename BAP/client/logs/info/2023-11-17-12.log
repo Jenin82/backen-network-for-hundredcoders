@@ -1,0 +1,22 @@
+2023-11-17T07:13:03.563Z [test] info: BAP Context:
+ {"ttl":"PT10M","action":"search","timestamp":"2023-11-17T07:13:03.543Z","message_id":"ffc4b627-8811-4a38-9660-de0cda750693","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}}
+
+
+2023-11-17T07:13:03.971Z [test] info: Signing String:==>
+(created): 1700205123
+(expires): 1700208723
+digest: BLAKE-512=pagM3SxtgaXeRFNI7PUvdghUWFx/wcjnZhYwDqEylyUDPU9iBD0pv6M83aO+wdXo4nKmANLVkMK0CqQKrlpTVA==
+
+
+2023-11-17T07:13:03.982Z [test] info: Axios Config for Request:
+{"headers":{"authorization":"Signature keyId=\"mulearn-jenin-bap|mulearn-jenin-bap-key|ed25519\",algorithm=\"ed25519\",created=\"1700205123\",expires=\"1700208723\",headers=\"(created) (expires) digest\",signature=\"Sf8wBwkeE2fjC3Q2n8UfbKrkkxzJa06iK3Cs+53+kvbwXFMvxY4KnWsltp40ZXIpiVJ38vUodv8UXIiENY62AQ==\""},"timeout":3000}
+
+
+2023-11-17T07:13:04.075Z [test] info: returning response from cache
+2023-11-17T07:13:04.076Z [test] info: cachedResponse: [{"subscriber_id":"mulearn-jenin-bap","subscriber_url":"https://jenin-bap.loca.lt","type":"BAP","signing_public_key":"uMY8jKgMwUyx3GCvPOhatU4IfmO+Jte2MsYWFXad7M4=","valid_until":"2024-10-09T19:14:00.000Z"}]
+2023-11-17T07:13:09.049Z [test] info: sending message to outbox queue 
+
+
+2023-11-17T07:13:09.057Z [test] info: Request from client:
+ {"context":{"ttl":"PT10M","action":"search","timestamp":"2023-11-17T07:13:03.543Z","message_id":"ffc4b627-8811-4a38-9660-de0cda750693","transaction_id":"bdb5ba09-2241-4f00-b434-73466cd06228","domain":"dsep:talent","version":"1.1.0","bap_id":"mulearn-jenin-bap","bap_uri":"https://mulearn-jenin-bap.loca.lt","location":{"country":{"name":"India","code":"IND"},"city":{"name":"Bangalore","code":"std:080"}}},"message":{"intent":{"item":{"tags":[{"descriptor":{"name":"skills"},"list":[{"value":"Agile"},{"value":"Figma"}],"display":true}]}}}}
+
